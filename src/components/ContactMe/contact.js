@@ -29,7 +29,7 @@ const Contact = () => {
         (result) => {
           console.log(result.text);
           form.current.reset();
-          console.log("message sent");
+          alert("Message Sent!!");
         },
         (error) => {
           console.log(error.text);
@@ -66,7 +66,7 @@ const Contact = () => {
             </a>
           </div>
           <div>
-            <a href="https://www.linkedin.com/in/ashutosh-rath-966176223/">
+            <a href="https://www.linkedin.com/in/ashutosh-rath-54065a274/">
               <AiFillLinkedin /> Check for my professional life
             </a>
           </div>
