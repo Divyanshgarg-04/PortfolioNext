@@ -60,7 +60,7 @@ function Particle() {
             width: 1,
           },
           move: {
-            enable: true,
+            enable: false,
             speed: 1,
             direction: "none",
             random: true,
@@ -78,11 +78,11 @@ function Particle() {
           detect_on: "canvas",
           events: {
             onhover: {
-              enable: true,
+              enable: false,
               mode: "grab",
             },
             onclick: {
-              enable: true,
+              enable: false,
               mode: "repulse",
             },
             resize: true,
