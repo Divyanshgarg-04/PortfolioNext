@@ -1,14 +1,14 @@
 html,
 body {
-  /* --section-background-color: linear-gradient(to bottom left, #0e0f10, #13100f); */
+  --text-primary: #ff8f4a;
   --imp-text-color: #2d82b7;
   --bs-body-font-family: "Space Mono", monospace;
 }
 
 .purple {
   color: var(--imp-text-color) !important;
-  background: #1785cf;
-  background: linear-gradient(to right, #1785cf 14%, #2f46aa 100%);
+  background: var(--text-primary);
+  /* background: linear-gradient(to right, #1785cf 14%, #2f46aa 100%); */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -54,7 +54,7 @@ button:focus {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #e82490;
+  background: var(--text-primary);
   border-radius: 12px;
 }
 
@@ -187,7 +187,6 @@ button:focus {
   width: 0;
   transform-origin: bottom left;
   border-radius: 16px;
-  /* background: #af28a8; */
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -195,7 +194,7 @@ button:focus {
 }
 
 .navbar-nav .nav-item a:hover::after {
-  background-color: #2d82b7;
+  background-color: var(--text-primary);
   content: "";
   display: block;
   height: 4px;
@@ -226,49 +225,41 @@ button:focus {
   text-align: left;
 }
 
-/* Smartphones (portrait and landscape) ---------- */
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .home-content {
     padding: 1rem 0 2rem !important;
   }
 }
-/* Smartphones (portrait) ---------- */
 @media screen and (max-width: 320px) {
   .home-content {
     padding: 1rem 0 2rem !important;
   }
 }
-/* Smartphones (landscape) ---------- */
 @media screen and (min-width: 321px) {
   .home-content {
     padding: 2rem 0 2rem !important;
   }
 }
-/* Tablets, iPads (portrait and landscape) ---------- */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .home-content {
     padding: 4rem 0 2rem !important;
   }
 }
-/* Tablets, iPads (portrait) ---------- */
 @media screen and (min-width: 768px) {
   .home-content {
     padding: 8rem 0 2rem !important;
   }
 }
-/* Tablets, iPads (landscape) ---------- */
 @media screen and (min-width: 1024px) {
   .home-content {
     padding: 10rem 0 2rem !important;
   }
 }
-/* Desktops and laptops ---------- */
 @media screen and (min-width: 1224px) {
   .home-content {
     padding: 10rem 0 2rem !important;
   }
 }
-/* Large screens ---------- */
 @media screen and (min-width: 1824px) {
   .home-content {
     padding: 12rem 0 2rem !important;
@@ -284,10 +275,6 @@ button:focus {
   font-size: 2.5em !important;
   padding-left: 45px !important;
 }
-
-/* .main-name {
-  color: #2d82b7;
-} */
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
