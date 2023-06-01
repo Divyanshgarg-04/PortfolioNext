@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Particle from "../Particle";
+// import Particle from "../Particle";
 import Techstack from "./Language";
 import Aboutcard from "./AboutCard";
 import Toolstack from "./Toolstack";
@@ -25,7 +25,7 @@ const Underline = styled.div`
 function About() {
   return (
     <Container fluid className="about-section">
-      <Particle />
+      {/* <Particle /> */}
       <Container>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
           <Col

@@ -8,7 +8,7 @@ import {
   AiFillTwitterCircle,
 } from "react-icons/ai";
 import tw from "twin.macro";
-import Particle from "../Particle";
+// import Particle from "../Particle";
 
 // npm i @emailjs/browser
 
@@ -39,7 +39,7 @@ const Contact = () => {
 
   return (
     <>
-      <Particle />
+      {/* <Particle /> */}
       <ContactSection>
         <StyledContactForm>
           <form ref={form} onSubmit={sendEmail}>
