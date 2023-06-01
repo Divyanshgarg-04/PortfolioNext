@@ -4,19 +4,7 @@ import ProjectCard from "./ProjectCards";
 // import Particle from "../Particle";
 import styled from "styled-components";
 import tw from "twin.macro";
-const Underline = styled.div`
-  ${tw`
-    h-[4px]
-    bg-white
-    rounded-lg
-    mb-4
-    lg:mb-12
-`}
-  width: ${(props) => `${props.width}px`};
-  @media (max-width: 640px) {
-    width: ${(props) => `calc(${props.width}px - 100px)`};
-  }
-`;
+
 const CenteredRow = styled(Row)`
   ${tw`
     justify-center
@@ -25,15 +13,22 @@ const CenteredRow = styled(Row)`
 function Projects() {
   return (
     <Container fluid className="project-section">
-      {/* <Particle /> */}
       <Container>
-        <h1 className="project-heading">
-          My <strong className="purple">Projects </strong>
-        </h1>
-        <Underline width={250} />
-        <p style={{ color: "white" }}>Here are a few of my projects</p>
-        {/* <Row style={{ justifyContent: "center", paddingBottom: "10px" }}> */}
+        <h1 className="project-heading">My Projects</h1>
         <CenteredRow>
+          <Col md={8} className="project-card">
+            <ProjectCard
+              imgPath="https://res.cloudinary.com/dhnkuonev/image/upload/v1685595307/Screenshot_2023-06-01_102306_uf2dnp.png"
+              isGh={true}
+              second={false}
+              isPhone=""
+              title="Solving for India"
+              label_1="Demo"
+              description="e-GymBro is a web based application that aims to provide its users with a virtual “gym bro,” a non-judgmental and free-of-cost fitness partner and mentor right at home. It helps the user in keeping track of their progress as they exercise and provides them with feedback to improve their form. It also provides the user with their very own fitness assistant called ChadGPT."
+              link_1="www.e-gymbro.com/"
+            />
+          </Col>
+
           <Col md={8} className="project-card">
             <ProjectCard
               imgPath="https://res.cloudinary.com/dhnkuonev/image/upload/v1678885907/Screenshot_2023-03-15_183958_tang0j.png"

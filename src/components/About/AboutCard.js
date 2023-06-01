@@ -8,14 +8,11 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "Left" }}>
-            Hola techies👋👋, I am <b className="purple">Ashutosh Rath </b>
-            based in <b className="purple"> Odisha, India.</b>
+            Hola techies👋👋, I am Ashutosh Rath based in Odisha, India.
             <br />
             <br />
-            Currently, I am an undergrad at{" "}
-            <b className="purple">
-              National Institute of Technology, Rourkela .
-            </b>
+            Currently, I am an undergrad at National Institute of Technology,
+            Rourkela .
             <br />
             What else I do when I am not touching😳 my laptop💻,
           </p>

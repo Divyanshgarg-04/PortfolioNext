@@ -9,19 +9,7 @@ import tw from "twin.macro";
 import AOS from "aos";
 import "aos/dist/aos.css";
 AOS.init();
-const Underline = styled.div`
-  ${tw`
-    h-[4px]
-    bg-white
-    rounded-lg
-    mb-4
-    lg:mb-12
-`}
-  width: ${(props) => `${props.width}px`};
-  @media (max-width: 640px) {
-    width: ${(props) => `calc(${props.width}px - 100px)`};
-  }
-`;
+
 function About() {
   return (
     <Container fluid className="about-section">
@@ -37,9 +25,8 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em" }} data-aos="fade-right">
-              ABOUT <strong className="purple">ME</strong>
+              ABOUT ME
             </h1>
-            <Underline data-aos="fade-right" width={200} />
 
             <Aboutcard />
           </Col>
@@ -61,16 +48,12 @@ function About() {
           </Col>
         </Row>
         <h1 data-aos="fade-right" className="project-heading">
-          Professional <strong className="purple">Skills </strong>
+          Professional Skills
         </h1>
-        <Underline data-aos="fade-right" width={400} />
 
         <Techstack />
 
-        <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I use
-        </h1>
-        <Underline width={230} />
+        <h1 className="project-heading">Tools I use</h1>
 
         <Toolstack />
       </Container>

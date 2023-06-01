@@ -5,5 +5,7 @@ body {
   font-family: "Space Mono", monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background-image: linear-gradient(to left, rgb(27 20 41), rgb(20 15 35));
+  background-image: linear-gradient(to left, #0c2231, #081721); */
   background: linear-gradient(to bottom left, #11161b, #000000);
 }
