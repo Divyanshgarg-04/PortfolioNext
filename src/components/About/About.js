@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-// import Particle from "../Particle";
 import Techstack from "./Language";
 import Aboutcard from "./AboutCard";
 import Toolstack from "./Toolstack";
@@ -13,7 +12,6 @@ AOS.init();
 function About() {
   return (
     <Container fluid className="about-section">
-      {/* <Particle /> */}
       <Container>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
           <Col
