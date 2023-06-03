@@ -3,8 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import Techstack from "./Language";
 import Aboutcard from "./AboutCard";
 import Toolstack from "./Toolstack";
-import styled from "styled-components";
-import tw from "twin.macro";
 import AOS from "aos";
 import "aos/dist/aos.css";
 AOS.init();
