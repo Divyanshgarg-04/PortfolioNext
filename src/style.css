@@ -2,6 +2,7 @@ html,
 body {
   --text-primary: #ff8f4a;
   --background: #1a202c;
+  --secondary: #7b61ff;
   background-color: var(--background);
 }
 
@@ -366,9 +367,10 @@ button:focus {
   padding-left: 25px !important;
   padding-right: 25px !important;
   height: auto !important;
+  border-radius: 20px;
 }
-
 .project-card-view {
+  border-radius: 20px;
   padding: 20px;
   height: 350px;
   color: white !important;
