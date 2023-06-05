@@ -6,12 +6,14 @@ import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import NotFoundPage from "./pages/404";
-
+import ReactGA from "react-ga";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Contact from "./components/ContactMe/contact";
+
+ReactGA.initialize("UA-217292803-1");
 
 function App() {
   const [load, upadateLoad] = useState(true);
