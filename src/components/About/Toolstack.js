@@ -12,30 +12,26 @@ import {
 
 function Toolstack() {
   return (
-    <Row
-      data-aos="fade-up"
-      data-aos-anchor-placement="top-bottom"
-      style={{ justifyContent: "center", paddingBottom: "50px" }}
-    >
-      <Col xs={4} md={2} className="tech-icons">
+    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      <Col xs={4} md={2} className="tech-icons" data-aos="fade-up">
         <SiVisualstudiocode />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" data-aos="fade-up">
         <SiAdobeillustrator />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" data-aos="fade-up">
         <SiFigma />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" data-aos="fade-up">
         <SiMedium />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" data-aos="fade-up">
         <SiNotion />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" data-aos="fade-up">
         <SiGithub />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" data-aos="fade-up">
         <SiWindows />
       </Col>
     </Row>

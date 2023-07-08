@@ -1,6 +1,6 @@
 html,
 body {
-  --text-primary: #ff8f4a;
+  --text-primary: #7b61ff;
   --background: #1a202c;
   --secondary: #7b61ff;
   background-color: var(--background);
@@ -10,6 +10,12 @@ button:focus {
   box-shadow: none !important;
 }
 
+.purple {
+  color: var(--text-primary);
+  font-size: xx-large;
+  font-weight: bolder;
+  font-style: oblique;
+}
 #preloader {
   position: fixed;
   top: 0;

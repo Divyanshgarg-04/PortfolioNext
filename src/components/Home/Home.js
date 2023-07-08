@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Type from "./Typewritertext";
 import styled from "styled-components";
-
 const TitleText = styled.strong`
   background: #cf197a;
   background: linear-gradient(to right, #cf197a 14%, #218fcf 100%);
