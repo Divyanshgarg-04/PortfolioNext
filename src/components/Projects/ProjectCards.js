@@ -38,8 +38,8 @@ function ProjectCards(props) {
           marginTop: "4%",
         }}
       />
-      <Card.Body>
-        <Card.Text style={{ textAlign: "justify" }} className="">
+      <Card.Body style={{ width: "90%", margin: "auto" }}>
+        <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
         {props.isGh && (

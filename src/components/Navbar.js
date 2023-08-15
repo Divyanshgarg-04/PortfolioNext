@@ -3,12 +3,6 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
-import {
-  AiOutlineHome,
-  AiOutlineFundProjectionScreen,
-  AiOutlineUser,
-  AiOutlineContacts,
-} from "react-icons/ai";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -33,8 +27,15 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <div style={{ fontWeight: 800, fontSize: 35, color: "#2D82B7" }}>
-            Ashutosh
+          <div
+            style={{
+              fontWeight: 800,
+              fontSize: 35,
+              color: "#7b61ff",
+              fontFamily: "'Lobster', cursive",
+            }}
+          >
+            A.R
           </div>
         </Navbar.Brand>
         <Navbar.Toggle
@@ -51,7 +52,7 @@ function NavBar() {
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
+                Home
               </Nav.Link>
             </Nav.Item>
 
@@ -61,7 +62,7 @@ function NavBar() {
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> About
+                About
               </Nav.Link>
             </Nav.Item>
 
@@ -71,9 +72,6 @@ function NavBar() {
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineFundProjectionScreen
-                  style={{ marginBottom: "2px" }}
-                />{" "}
                 Projects
               </Nav.Link>
             </Nav.Item>
@@ -83,7 +81,7 @@ function NavBar() {
                 to="/contact"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineContacts style={{ marginBottom: "2px" }} /> Contact Me
+                Contact Me
               </Nav.Link>
             </Nav.Item>
           </Nav>

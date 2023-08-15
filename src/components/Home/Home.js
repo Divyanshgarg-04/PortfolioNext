@@ -18,7 +18,7 @@ function Home() {
               data-aos="fade-right"
               md={7}
               className="home-header"
-              style={{ marginTop: "50px" }}
+              style={{ marginTop: "10px" }}
             >
               <h1 style={{ paddingBottom: 15 }} className="heading">
                 Hello World!{" "}

@@ -21,10 +21,14 @@ function About() {
               paddingBottom: "50px",
             }}
           >
-            <h1 style={{ fontSize: "2.1em" }} data-aos="fade-right">
-              ABOUT ME
-            </h1>
-
+            <span className="project-heading">
+              <h1
+                style={{ fontSize: "1.1em", textDecoration: "underline" }}
+                data-aos="fade-right"
+              >
+                ABOUT ME
+              </h1>
+            </span>
             <Aboutcard />
           </Col>
           <Col

@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-// import Particle from "../Particle";
 import styled from "styled-components";
 import tw from "twin.macro";
 
@@ -16,6 +15,18 @@ function Projects() {
       <Container>
         <h1 className="project-heading">My Projects</h1>
         <CenteredRow>
+          <Col md={8} className="project-card">
+            <ProjectCard
+              imgPath="https://res.cloudinary.com/dhnkuonev/image/upload/v1692122004/Screenshot_2023-08-15_232044_jkak8s.png"
+              isGh={true}
+              second={false}
+              isPhone=""
+              title="Travel Tales"
+              label_1="Demo"
+              description="Travel Tales website, offering an engaging user experience in form of travel stories. At its core, the component renders visually appealing cards that showcase captivating travel posts. Each post includes a title, image, traveler's name, creation date, and tags."
+              link_1="hhttps://traveltaless.vercel.app/"
+            />
+          </Col>
           <Col md={8} className="project-card">
             <ProjectCard
               imgPath="https://res.cloudinary.com/dhnkuonev/image/upload/v1685595307/Screenshot_2023-06-01_102306_uf2dnp.png"
