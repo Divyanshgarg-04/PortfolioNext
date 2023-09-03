@@ -78,6 +78,15 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
+                to="https://medium.com/@ashutosh123rath"
+                onClick={() => updateExpanded(false)}
+              >
+                Blogs
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
                 to="/contact"
                 onClick={() => updateExpanded(false)}
               >
