@@ -22,7 +22,7 @@ PortfolioNext is a portfolio website template built with Next.js. It provides a 
 
 2. Customize the content:
 
-- Open the `data` directory and update the `projects.js`, `skills.js`, `experiences.js`, and `contact.js` files with your own information. Follow the provided format and instructions.
+- Open the `data` directory and update the `projects.js`, `skills.js`, `experiences.js`, and `contact.js` files with your own information. Follow the provided format and instructions. You can add link to your blog.
 
 - Replace the `profile.jpg` file in the `public` directory with your own profile picture. Make sure to maintain the same file name and format (JPEG or PNG).
 
