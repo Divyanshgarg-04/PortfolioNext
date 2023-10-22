@@ -60,18 +60,18 @@ const Contact = () => {
             </a>
           </div>
           <div>
-            <a href="https://instagram.com/v_ashu_dev=">
+            <a href="https://www.instagram.com/v_ashu_dev_/">
               <AiFillInstagram />
               Follow me on Instagram
             </a>
           </div>
           <div>
-            <a href="https://www.linkedin.com/in/ashutosh-rath-54065a274/">
+            <a href="https://www.linkedin.com/in/ashutosh-rath-afk02/">
               <AiFillLinkedin /> Check for my professional life
             </a>
           </div>
           <div>
-            <a href="https://twitter.com/Ashutos48101482">
+            <a href="https://twitter.com/v_ashu_dev">
               <AiFillTwitterCircle />
               Check out my Tweets!
             </a>
