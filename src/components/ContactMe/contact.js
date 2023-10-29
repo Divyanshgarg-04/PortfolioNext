@@ -54,24 +54,24 @@ const Contact = () => {
         </StyledContactForm>
         <SocialLinks>
           <div>
-            <a href="https://github.com/Lucif3r-in">
+            <a style={{"display" : "flex","gap" : "6px","justifyItems":"center","alignItems" : "center"}} href="https://github.com/Lucif3r-in">
               <AiFillGithub />
               See what I have developed
             </a>
           </div>
           <div>
-            <a href="https://www.instagram.com/v_ashu_dev_/">
+            <a style={{"display" : "flex","gap" : "6px","justifyItems":"center","alignItems" : "center"}} href="https://www.instagram.com/v_ashu_dev_/">
               <AiFillInstagram />
               Follow me on Instagram
             </a>
           </div>
           <div>
-            <a href="https://www.linkedin.com/in/ashutosh-rath-afk02/">
+            <a style={{"display" : "flex","gap" : "6px","justifyItems":"center","alignItems" : "center"}} href="https://www.linkedin.com/in/ashutosh-rath-afk02/">
               <AiFillLinkedin /> Check for my professional life
             </a>
           </div>
           <div>
-            <a href="https://twitter.com/v_ashu_dev">
+            <a style={{"display" : "flex","gap" : "6px","justifyItems":"center","alignItems" : "center"}} href="https://twitter.com/v_ashu_dev">
               <AiFillTwitterCircle />
               Check out my Tweets!
             </a>
