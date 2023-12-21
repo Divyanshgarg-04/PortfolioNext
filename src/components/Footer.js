@@ -15,7 +15,7 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/Lucif3r-in"
+                href="https://github.com/ashutosh-rath02"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -25,7 +25,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/ashutosh-rath-54065a274/"
+                href="https://www.linkedin.com/in/rathashutosh"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -35,7 +35,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://twitter.com/Ashutos48101482"
+                href="https://twitter.com/v_ashu_dev"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
