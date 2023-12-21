@@ -54,7 +54,7 @@ const Contact = () => {
         </StyledContactForm>
         <SocialLinks>
           <div>
-            <a style={{"display" : "flex","gap" : "6px","justifyItems":"center","alignItems" : "center"}} href="https://github.com/Lucif3r-in">
+            <a style={{"display" : "flex","gap" : "6px","justifyItems":"center","alignItems" : "center"}} href="https://github.com/ashutosh-rath02">
               <AiFillGithub />
               See what I have developed
             </a>
