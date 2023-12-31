@@ -2,7 +2,8 @@
 
 PortfolioNext is a portfolio website template built with Next.js. It provides a clean and modern design to showcase your projects, skills, and experiences.
 
-![image](https://github.com/Lucif3r-in/PortfolioNext/assets/85403534/b678b406-46a4-421b-9cde-c1f22ba1aee6)
+![image](https://github.com/ashutosh-rath02/PortfolioNext/assets/85403534/fad053f6-0421-496c-bc92-8bd67f7b4e90)
+
 
 
 ## Installation
